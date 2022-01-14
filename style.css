@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --size: 50%;
+  --blur: 20px;
+  --bg-color: #383838;
+}
+
+body {
+  text-align: center;
+  background: var(--bg-color);
+  color: white;
+  font-family: "helvetica neue", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+img {
+  width: var(--size);
+  height: auto;
+  padding: 10px;
+  filter: blur(var(--blur));
+  border: 4 px solid black;
+}
